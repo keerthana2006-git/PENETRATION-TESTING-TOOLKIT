@@ -15,11 +15,11 @@
 *DESCRIPTION OF PENETRATION TESTING TOOLKIT*
 The Penetration Testing Toolkit is a Python-based command-line application designed to simulate essential ethical hacking techniques and security practices.
 It includes:-
--> Port scanning:  1) Scans a list of common ports (21, 22, 23, 25, 80, 443, 3306) on a given IP address.  2) Helps identify which services might be running on the target system.
--> Banner grabbing: 1) Connects to each open port and tries to read the service banner.  2) Banners often contain version info, which helps identify possible vulnerabilities.
--> Service detection: 1) Maps common ports to known services like HTTP, FTP, SSH, etc.  2) Helps quickly identify the nature of services running on open ports
--> Vulnerability checking: 1) Matches retrieved service banners against a small database of known vulnerable versions.  2) Alerts the user if any known vulnerability is detected.
--> HTTP brute-force login testing: 1) Prompts the user for a login URL and username.  2) Tries a list of common passwords to brute-force login access.
+-> PORT SCANNING:  1) Scans a list of common ports (21, 22, 23, 25, 80, 443, 3306) on a given IP address.  2) Helps identify which services might be running on the target system.
+-> BANNER GRABBING: 1) Connects to each open port and tries to read the service banner.  2) Banners often contain version info, which helps identify possible vulnerabilities.
+-> SERVICE DETECTION: 1) Maps common ports to known services like HTTP, FTP, SSH, etc.  2) Helps quickly identify the nature of services running on open ports
+-> VULNERABILITY CHECKING: 1) Matches retrieved service banners against a small database of known vulnerable versions.  2) Alerts the user if any known vulnerability is detected.
+-> HTTP BRUTE-FORCE LOGIN TESTING: 1) Prompts the user for a login URL and username.  2) Tries a list of common passwords to brute-force login access.
 
 Note:-  The brute force works perfectly only with a Flask-based test login page.
 
