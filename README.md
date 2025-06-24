@@ -54,6 +54,11 @@ Running port scans, brute-force attacks, or vulnerability checks on websites, pu
 
 Thus, only run on the systems you own or have permission to test...!!!
 
+#OUTPUT
+
+![Image](https://github.com/user-attachments/assets/70a4e1e1-4269-4bbc-957a-94568ed34721)
+![Image](https://github.com/user-attachments/assets/0f827e83-86c0-4d74-a4bc-ac3d155cf9c5)
+
 
 
 
